@@ -26,7 +26,7 @@
     customElements.define('o', OverlineElement);
 
     // 2. ALLE <u> Elemente auf der Seite finden
-    const All-u-Elements = document.querySelectorAll('o');
+    const All-o-Elements = document.querySelectorAll('o');
 
     // 3. Jedes einzelne Element durchgehen und die Attribute auslesen
     All-u-Elements.forEach((o_content, index) => {
