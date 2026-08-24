@@ -22,10 +22,10 @@ class OverlineElement extends HTMLElement {
         super();
     }
 }
-customElements.define('o-element', OverlineElement);
+customElements.define('new-o-element', OverlineElement);
 
 // 2. ALLE o-element Elemente auf der Seite finden
-const allOElements = document.querySelectorAll('o-element');
+const allOElements = document.querySelectorAll('new-o-element');
 
 // 3. Jedes einzelne Element durchgehen und den Stil anwenden
 allOElements.forEach((o_content) => {
