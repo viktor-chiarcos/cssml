@@ -13,7 +13,7 @@ const allUElements = document.querySelectorAll('u-element');
 // 3. Jedes einzelne Element durchgehen und den Stil anwenden
 allUElements.forEach((content) => {
     const old = content.innerHTML;
-    content.innerHTML = `<div style="text-decoration: underline">${old}</div>`;
+    content.innerHTML = `<div style="text-decoration: overline">${old}</div>`;
 });
 
 // 1. Das Overline-Element einmalig beim Browser registrieren
