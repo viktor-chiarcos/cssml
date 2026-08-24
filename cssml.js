@@ -7,10 +7,10 @@
     customElements.define('u', UnderlineElement);
 
     // 2. ALLE <u> Elemente auf der Seite finden
-    const All-u-Elements = document.querySelectorAll('u');
+    const All_u_Elements = document.querySelectorAll('u');
 
     // 3. Jedes einzelne Element durchgehen und die Attribute auslesen
-    All-u-Elements.forEach((content, index) => {
+    All_u_Elements.forEach((content, index) => {
 
         const old = content.innerHTML;
         content.innerHTML=`<div style="text-decoration: underline">${old}</div>`
@@ -26,10 +26,10 @@
     customElements.define('o', OverlineElement);
 
     // 2. ALLE <u> Elemente auf der Seite finden
-    const All-o-Elements = document.querySelectorAll('o');
+    const All_o_Elements = document.querySelectorAll('o');
 
     // 3. Jedes einzelne Element durchgehen und die Attribute auslesen
-    All-o-Elements.forEach((o_content, index) => {
+    All_o_Elements.forEach((o_content, index) => {
 
         const old = o_content.innerHTML;
         o_content.innerHTML=`<div style="text-decoration: overline">${old}</div>`
