@@ -29,8 +29,8 @@
     const All-u-Elements = document.querySelectorAll('o');
 
     // 3. Jedes einzelne Element durchgehen und die Attribute auslesen
-    All-u-Elements.forEach((content, index) => {
+    All-u-Elements.forEach((o_content, index) => {
 
         const old = o_content.innerHTML;
-        o_content.innerHTML=`<div style="text-decoration: underline">${old}</div>`
+        o_content.innerHTML=`<div style="text-decoration: overline">${old}</div>`
     });
